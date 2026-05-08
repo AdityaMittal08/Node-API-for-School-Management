@@ -11,7 +11,6 @@ A Node.js RESTful API designed to manage school records and sort them geographic
 `src/` is organized using a layered N-Tier architecture logic.
 - `config/` Database connection configurations
 - `controllers/` API request/response handlers
-- `models/` Data access layer & table setup
 - `routes/` Express routing configurations
 - `services/` Business logic (includes Haversine distance math)
 
