@@ -1,6 +1,5 @@
 const pool = require('../config/db');
 
-// Haversine distance
 const calculateDistance = (lat1, lon1, lat2, lon2) => {
     const toRadians = (degree) => degree * (Math.PI / 180);
     const R = 6371;
